@@ -1,0 +1,120 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Gray background with padding */
+body {
+  font-family: Times New Roman;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* My Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Two unequal columns floating next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout -- when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Cybersecurity Blog</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>What is Cybersecurity?</h2>
+      <h5>Defining Cybersecurity, Dec 11, 2020</h5>
+      <!fake image in place for formatting purposes>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p><b>Cybersecurity</b></p>
+      <p>Cybersecurity often refers to technologies, practices, and processes that are designed to protect computer systems, programs, and data from malicious attacks or unauthorized access.  Cybersecurity can also be referred to as information technology security.  Some may ask, why is cybersecurity important? The fact of the matter is, data is collected in many private and public sector organizations.  Some of this data is highly sensitive and may contain personal information about individuals.  Cybersecurity exists in order to protect data from hackers and malicious groups of individuals.</p>
+    </div>
+    <div class="card">
+      <h2>Which Anti-Virus is the Best?</h2>
+      <h5>Anti-Virus, Dec. 12, 2020</h5>
+      <!fake image in place for formatting purposes>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p><b>How to Choose the Right Anti-Virus</b></p>
+      <p>There are many Anti-Virus softwares out in the digital world.  Choosing the right one for your needs can be a challenge.</p>
+      <p>Here are some tips to finding a suitable Anti-Virus software.</p>
+      <p>1) <i>Look for an anti-virus software that is all inclusive.</i>  A good anti-virus software will provide firewall protection, malware, and other malicious software.</p>
+      <p>2) <i>Consider the reputation of the company that creates the software.</i>  Do some research into what products are highly rated and high levels of satisfaction amongst users.</p>
+      <p>3) <i>Be aware of the costs of anti-virus software.</i>  Opting out for a cheaper anti-virus software may not always be the best solution.  Finding a moderately priced anti-virus software that suits your need would be the best approach.</p> 
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Michael Chi</h2>
+      <!fake image in place for formatting purposes>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Text about me</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
