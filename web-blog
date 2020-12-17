@@ -41,18 +41,18 @@ body {
 <body>
 
 <div class="header">
-  <h2>Cybersecurity Blog</h2>
+  <h2 style="border:5px double Grey;">Cybersecurity Blog</h2>
 </div>
 
     <div class="card">
-      <h2>What is Cybersecurity?</h2>
+      <h2 style="border:3px solid Black;">What is Cybersecurity?</h2>
       <h5>Defining Cybersecurity, Dec 11, 2020</h5>
       <img src="https://newsroom.cisco.com/documents/10157/14740/board-ceo-security_1200x675_hero_120219.jpg/b7ad1699-0ba4-4082-8c88-fa569783e62c?t=1574708784819" alt="Cybersecurity" style="width:550px;height:200px;">
       <p><b>Cybersecurity</b></p>
       <p>Cybersecurity often refers to technologies, practices, and processes that are designed to protect computer systems, programs, and data from malicious attacks or unauthorized access.  Cybersecurity can also be referred to as information technology security.  Some may ask, why is cybersecurity important? The fact of the matter is, data is collected in many private and public sector organizations.  Some of this data is highly sensitive and may contain personal information about individuals.  Cybersecurity exists in order to protect data from hackers and malicious groups of individuals.</p>
     </div>
     <div class="card">
-      <h2>Which Anti-Virus is The Best?</h2>
+      <h2 style="border:3px solid Black;">Which Anti-Virus is The Best?</h2>
       <h5>Anti-Virus, Dec. 12, 2020</h5>
       <img src="https://www.safetydetectives.com/wp-content/uploads/2020/06/10-Best-Antivirus-in-2020-Windows-Android-iOS-Mac-672x354.jpg.webp" alt="Anti-Virus" style="height:200px;">
       <p><b>How to Choose the Right Anti-Virus</b></p>
