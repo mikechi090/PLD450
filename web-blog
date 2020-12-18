@@ -13,10 +13,11 @@ body {
 
 /* My Blog Title */
 .header {
+  background-color: #E9EEFE;
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background: #E9EEFE;
+  
 }
 
 /* Card effect for articles */
